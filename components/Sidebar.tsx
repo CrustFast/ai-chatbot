@@ -48,7 +48,7 @@ export function SidebarDemo() {
                 href: "#",
                 icon: (
                   <Image
-                    src=""
+                    src="https://assets.aceternity.com/manu.png"
                     className="h-7 w-7 flex-shrink-0 rounded-full"
                     width={50}
                     height={50}
