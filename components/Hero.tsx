@@ -28,7 +28,7 @@ const Hero = () => {
   };
 
   return (
-    <div style={{ backgroundColor: "#171616" }} className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-50 dark:bg-[#171616]">
       <TypewriterEffectSmooth words={words} className="text-2xl font-semibold mb-10" cursorClassName="bg-blue-500" />
       <PlaceholdersAndVanishInput
         placeholders={placeholders}
